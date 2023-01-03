@@ -7,12 +7,11 @@ const Searchbar = () => {
 	const [searchTerm, setSearchTerm] = useState("");
 	const navigate = useNavigate();
 
-	const onhandleSubmit = (e) => {
+	const handleSubmit = (e) => {
 		e.preventDefault();
 
 		if (searchTerm) {
 			navigate(`/search/${searchTerm}`);
-
 			setSearchTerm("");
 		}
 	};
@@ -27,12 +26,13 @@ const Searchbar = () => {
 				boxShadow: "none",
 				mr: { sm: 5 },
 			}}
+			onSubmit={handleSubmit}
 		>
 			<input
 				className="search-bar"
 				placeholder="Search..."
 				value={searchTerm}
-				onChange={() => {}}
+				onChange={(e) => setSearchTerm(e.target.value)}
 			/>
 			<IconButton
 				type="submit"

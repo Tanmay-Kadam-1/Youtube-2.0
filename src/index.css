@@ -35,7 +35,7 @@ a {
 }
 
 .react-player {
-	height: 77vh !important;
+	height: 70vh !important;
 	width: 100% !important;
 }
 
@@ -43,6 +43,10 @@ a {
 	border: none;
 	outline: none;
 	width: 350px;
+}
+.everything {
+	box-shadow: 0 0 500px rgba(245, 245, 245, 0.533);
+	border-radius: 10px;
 }
 
 .category-btn {
