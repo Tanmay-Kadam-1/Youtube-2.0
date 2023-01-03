@@ -23,7 +23,7 @@ const SearchFeed = () => {
 				height: "90vh",
 				flex: 2,
 				background: "#000",
-				paddingLeft: "150px",
+				paddingLeft: { md: "150px", sm: "10px" },
 			}}
 		>
 			<Typography variant="h4" sx={{ color: "white" }} fontWeight="bold" mb={2}>

@@ -19,12 +19,16 @@ const VideoCard = ({
 }) => (
 	<Card
 		sx={{
-			width: { xs: "100%", sm: "200px", md: "270px" },
+			width: { xs: "95%", sm: "200px", md: "270px" },
 			boxShadow: "none",
-			borderRadius: 0,
+			borderRadius: "10px",
 			background: "#000",
 			margin: "10px",
+			marginLeft: { sm: "20px" },
+			boxShadow: "0 0 2px white",
+			paddingBottom: "10px",
 		}}
+		className="video-card"
 	>
 		<Link to={videoId ? `/video/${videoId}` : `/video/cV2gBU6hKfY`}>
 			<CardMedia
@@ -33,7 +37,6 @@ const VideoCard = ({
 				sx={{
 					width: { xs: "100%", sm: "270px" },
 					height: 160,
-					borderRadius: "15px",
 				}}
 			/>
 		</Link>
