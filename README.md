@@ -2,7 +2,7 @@
 This is an Youtube Clone using Youtube v3 API from RapidAPI with video sections, custom categories, channel pages.
 With Functionality like Channel Preview and Searching Particular Videos.
 
-The Youtube V3 API is used to fetch data about Youtube Videos and Channels.
+The YoutubeV3 API is used to fetch data about Youtube Videos and Channels.
 
 ## Website is Deployed at
 https://tanmays-youtube-v2.netlify.app/
